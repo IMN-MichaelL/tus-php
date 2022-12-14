@@ -15,7 +15,7 @@ return [
      * File cache configs.
      */
     'file' => [
-        'dir' => '\tmp\' . DIRECTORY_SEPARATOR . '.cache' . DIRECTORY_SEPARATOR,
+        'dir' => '/tmp/' . DIRECTORY_SEPARATOR . '.cache' . DIRECTORY_SEPARATOR,
         'name' => 'tus_php.client.cache',
     ],
 ];
